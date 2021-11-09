@@ -1,11 +1,11 @@
-package cn.translator.demo
+package codenomads.kotlintranslator
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DemoApplication
+class KotlinTranslatorApplication
 
 fun main(args: Array<String>) {
-	runApplication<DemoApplication>(*args)
+	runApplication<KotlinTranslatorApplication>(*args)
 }
